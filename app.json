@@ -1,0 +1,6 @@
+{
+  "name": "Orders Demo",
+  "description": "Orders demo application developed using struts rest plugin",
+  "repository": "https://github.com/amitbhoraniya/orders-demo",
+  "keywords": ["java", "struts", "order"]
+}
