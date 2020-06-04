@@ -27,8 +27,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Orders</title>
-    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="${pageContext.request.contextPath}/css/app.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4cbed2c98f.js" crossorigin="anonymous"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -73,7 +74,7 @@
                 </div>
             </s:form>
 	        <a href="${pageContext.request.contextPath}/orders" class="btn btn-info">
-		        <span class="glyphicon glyphicon-arrow-left"></apan> Back to Orders
+		        <span class="fa fa-arrow-left"></span> Back to Orders
 	        </a>
         </div><!--/col-md-12--->
     </div><!--/row-->

@@ -27,8 +27,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Orders</title>
-    <link href="${pageContext.request.contextPath}/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="${pageContext.request.contextPath}/css/app.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4cbed2c98f.js" crossorigin="anonymous"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,15 +61,15 @@
                     <td><s:property value="amount"/></td>
                     <td>
                         <div class="btn-group">
-                            <a href="orders/${id}" class="btn btn-default"><span class="glyphicon glyphicon-eye-open"></span> View</a>
-                            <a href="orders/${id}/edit" class="btn btn-default"><span class="glyphicon glyphicon-edit"></span> Edit</a>
-                            <a href="orders/${id}/deleteConfirm" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Delete</a>
+                            <a href="orders/${id}" class="btn btn-default"><i class="fa fa-eye"></i> View</a>
+                            <a href="orders/${id}/edit" class="btn btn-default"><i class="fa fa-edit"></i> Edit</a>
+                            <a href="orders/${id}/deleteConfirm" class="btn btn-danger"><i class="fa fa-trash"></i> Delete</a>
                         </div>
                    </td>
                 </tr>
                 </s:iterator>
             </table>
-            <a href="orders/new" class="btn btn-primary"><span class="glyphicon glyphicon-file"></span> Create a new order</a>
+            <a href="orders/new" class="btn btn-primary"><span class="fa fa-file"></span> Create a new order</a>
         </div><!--/col-md-12--->
     </div><!--/row-->
 </div><!--/container-->
